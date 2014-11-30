@@ -1,0 +1,9 @@
+{
+    "id": "roger",
+    "comment": "Roger Lipscombe",
+    "shell": "/bin/bash",
+    "groups": "sysadmin",
+    "ssh_keys" : [
+"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC7YQ7JUmAfz3PWJJ52AnMFmGksOhnRAExqZQO/VUrW8FK/cGHX9AFF9UTRpsRzMTaRP2z1QihnVFY65w+JBPsaXCXgvRwUYqF9roeuMvn4lM5QX07pU7AXsBsc9lh55eZe2KpL7pT4OoyRv5Ae0F1ARQfOGCuOlnXgxlKZZBwwdDtL3TjFFzb4iq8sjo/VA2MI309f47x0GdPS8Gl/Cw4noJQCv5gL+rC8iCs6SCPPksBUxrQB2vCG5IoIHWBg+O3hD4WGRJnKh/TJN36m7XppWBW2yuXGNNxcz9b2Wpzm+HIZYvvq7ETjHjg1Ud4k7Imw2Xtqs+zJ7mNFvyCaZnpT roger@roger-pc"
+    ]
+}
