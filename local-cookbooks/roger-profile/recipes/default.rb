@@ -10,7 +10,6 @@
 git '/home/roger/bash_profile' do
     repository 'git://github.com/rlipscombe/bash_profile'
     checkout_branch 'master'
-    revision 'master'
     action :sync
     group 'roger'
     user 'roger'
