@@ -1,0 +1,7 @@
+name             'discourse'
+maintainer       'YOUR_NAME'
+maintainer_email 'YOUR_EMAIL'
+license          'All rights reserved'
+description      'Installs/Configures discourse'
+long_description 'Installs/Configures discourse'
+version          '0.1.0'
