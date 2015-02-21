@@ -1,6 +1,7 @@
 name 'discourse'
 
 run_list(
-	'docker'
+	'docker',
+        'discourse'
 )
 

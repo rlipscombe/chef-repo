@@ -1,7 +1,9 @@
 name             'discourse'
-maintainer       'YOUR_NAME'
-maintainer_email 'YOUR_EMAIL'
+maintainer       'Roger Lipscombe'
+maintainer_email 'roger@differentpla.net'
 license          'All rights reserved'
 description      'Installs/Configures discourse'
 long_description 'Installs/Configures discourse'
-version          '0.1.0'
+version          '0.1.3'
+
+depends          'users'

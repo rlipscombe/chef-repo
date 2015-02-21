@@ -1,6 +1,8 @@
 DEPENDENCIES
   apt
   chef-solo-search
+  discourse
+    path: local-cookbooks/discourse
   docker
   git
   roger-profile
@@ -19,6 +21,8 @@ GRAPH
   device-mapper (0.1.0)
     apt (>= 0.0.0)
     modules (>= 0.0.0)
+  discourse (0.1.2)
+    users (>= 0.0.0)
   dmg (2.2.2)
   docker (0.36.0)
     apt (>= 0.0.0)
