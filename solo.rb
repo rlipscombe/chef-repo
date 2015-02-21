@@ -1,3 +1,8 @@
 ssl_verify_mode :verify_peer
-cookbook_path File.expand_path("../cookbooks", __FILE__)
-json_attribs File.expand_path("../node.json", __FILE__)
+
+def relative(path)
+    File.expand_path(File.join(File.dirname(__FILE__), path))
+end
+
+cookbook_path relative('cookbooks')
+json_attribs relative('node.json')
