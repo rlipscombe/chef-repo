@@ -1,6 +1,7 @@
 source "https://supermarket.getchef.com"
 
 cookbook 'apt'
+cookbook 'git'
 
 cookbook 'users'
 cookbook 'sudo'

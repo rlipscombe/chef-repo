@@ -2,6 +2,7 @@ name 'base'
 
 run_list(
 	'apt',
+        'git',
         'chef-solo-search',
         'users::sysadmins',
         'sudo'
