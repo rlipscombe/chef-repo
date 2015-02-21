@@ -1,0 +1,14 @@
+DEPENDENCIES
+  apt
+  chef-solo-search
+  roger-profile
+    path: local-cookbooks/roger-profile
+  sudo
+  users
+
+GRAPH
+  apt (2.6.0)
+  chef-solo-search (0.5.1)
+  roger-profile (0.4.0)
+  sudo (2.7.1)
+  users (1.7.0)
