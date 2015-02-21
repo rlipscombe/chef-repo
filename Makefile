@@ -9,7 +9,7 @@ roles:
 cookbooks:
 	berks install
 	berks vendor cookbooks
-	knife cookbook upload -a
+	berks upload
 
 data_bags:
 	knife data bag from file users data_bags/users
