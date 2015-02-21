@@ -21,7 +21,7 @@ GRAPH
   device-mapper (0.1.0)
     apt (>= 0.0.0)
     modules (>= 0.0.0)
-  discourse (0.1.3)
+  discourse (0.1.5)
     users (>= 0.0.0)
   dmg (2.2.2)
   docker (0.36.0)

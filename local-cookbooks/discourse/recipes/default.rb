@@ -29,3 +29,15 @@ git '/var/discourse' do
     user 'discourse'
     action :sync
 end
+
+template '/var/discourse/containers/app.yml' do
+    source 'app.yml.erb'
+    variables({
+        :discourse_developer_emails => node[:discourse][:developer_emails],
+        :discourse_hostname => node[:discourse][:hostname],
+        :discourse_smtp_address => node[:discourse][:smtp_address],
+        :discourse_smtp_port => node[:discourse][:smtp_port],
+        :discourse_smtp_user_name => node[:discourse][:smtp_user_name],
+        :discourse_smtp_password => node[:discourse][:smtp_password]
+    })
+end
